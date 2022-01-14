@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--계산기 출력 부분-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+
+        <!--right + bottom 속성 -->
+        <TextView
+            android:id="@+id/tv_output_expression"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="right|bottom"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="15dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+            <!--right + bottom 속성 -->
+            <TextView
+                android:id="@+id/tv_output"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="right|bottom"
+                android:text="0"
+                android:textSize="30dp" />
+        </ScrollView>
+
+    </LinearLayout>
+
+    <!--계산기 버튼 부분 #1 ( AC, +/-, %, / )-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btn_question"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/selector_btn_question" />
+
+        <Button
+            android:id="@+id/btn_ac"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/selector_btn_ac" />
+
+        <Button
+            android:id="@+id/btn_pecent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/selector_btn_percent" />
+
+        <Button
+            android:id="@+id/btn_division"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/selector_btn_division" />
+
+    </LinearLayout>
+
+    <!--계산기 버튼 부분 #2 ( 7, 8, 9, * )-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btn_number_7"
+            android:background="@drawable/selector_btn_07"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btn_number_8"
+            android:background="@drawable/selector_btn_08"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btn_number_9"
+            android:background="@drawable/selector_btn_09"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btn_multiplication"
+            android:background="@drawable/selector_btn_multiplication"/>
+
+    </LinearLayout>
+
+    <!--계산기 버튼 부분 #2 ( 4, 5, 6, - )-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btn_number_4"
+            android:background="@drawable/selector_btn_04"/>
+
+        <Button
+            android:id="@+id/btn_number_5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/selector_btn_05" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btn_number_6"
+            android:background="@drawable/selector_btn_06"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btn_subtract"
+            android:background="@drawable/selector_btn_subtract"/>
+
+    </LinearLayout>
+
+    <!--계산기 버튼 부분 #2 ( 1, 2, 3, + )-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btn_number_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/selector_btn_01" />
+
+        <Button
+            android:id="@+id/btn_number_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/selector_btn_02" />
+
+        <Button
+            android:id="@+id/btn_number_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/selector_btn_03" />
+
+        <Button
+            android:id="@+id/btn_plus"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/selector_btn_plus" />
+
+    </LinearLayout>
+
+    <!--계산기 버튼 부분 #2 ( 0, ., = )-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btn_number_0"
+            android:background="@drawable/selector_btn_00"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btn_period"
+            android:background="@drawable/selector_btn_period"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:id="@+id/btn_equal"
+            android:background="@drawable/selector_btn_equals"/>
+
+    </LinearLayout>
+
+</LinearLayout>

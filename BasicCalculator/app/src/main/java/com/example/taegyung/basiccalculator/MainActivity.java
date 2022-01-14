@@ -1,5 +1,6 @@
 package com.example.taegyung.basiccalculator;
 
+import android.content.Intent;
 import android.os.SystemClock;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -109,14 +110,18 @@ public class MainActivity extends AppCompatActivity {
             public void onSingleClick(View v) {
 
                 // 초기화
-                strExpression = "";
-                tv_output_expression.setText(strExpression);
-                tv_output.setText(strExpression);
+//                strExpression = "";
+//                tv_output_expression.setText(strExpression);
+//                tv_output.setText(strExpression);
+//
+//
+//                // 토스트 메세지 출력
+//                Toast.makeText(getApplication(), "안녕하세요!! \n첫 심플 계산기 업그레이드 버전입니다. \n많이 사랑해 주세요\n " +
+//                        "<a href=\"http://www.freepik.com\">Designed by Sapann-Design / Freepik</a>", Toast.LENGTH_LONG).show();
 
-
-                // 토스트 메세지 출력
-                Toast.makeText(getApplication(), "안녕하세요!! \n첫 심플 계산기 업그레이드 버전입니다. \n많이 사랑해 주세요\n " +
-                        "<a href=\"http://www.freepik.com\">Designed by Sapann-Design / Freepik</a>", Toast.LENGTH_LONG).show();
+                // 두번째 화면으로 이동한다.
+                Intent intent1 = new Intent(getApplicationContext(), ShowMe.class);
+                startActivity(intent1);
             }
         });
 
