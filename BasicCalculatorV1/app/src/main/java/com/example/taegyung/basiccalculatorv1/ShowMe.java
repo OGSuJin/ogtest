@@ -1,4 +1,4 @@
-package com.example.taegyung.basiccalculator;
+package com.example.taegyung.basiccalculatorv1;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
