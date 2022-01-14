@@ -16,6 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!--엑티비티 sub1.xml, ShowMe.java-->
+        <activity android:name=".ShowMe">
+        </activity>
+
     </application>
 
 </manifest>

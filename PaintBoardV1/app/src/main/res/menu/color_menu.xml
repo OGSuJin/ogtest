@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuTitle"
+        android:icon="@drawable/icons8_artist_palette"
+        app:showAsAction="always"
+        android:title="팔레트"
+        />
+
+    <item
+        android:id="@+id/menuRed"
+        app:showAsAction="withText"
+        android:title="빨간색"
+        />
+
+    <item
+        android:id="@+id/menuOrange"
+        android:title="주황색" />
+
+    <item
+        android:id="@+id/menuYellow"
+        android:title="노란색" />
+
+    <item
+        android:id="@+id/menuGreen"
+        android:title="초록색" />
+
+    <item
+        android:id="@+id/menuBlue"
+        android:title="파란색" />
+
+    <item
+        android:id="@+id/menuNavy"
+        android:title="남색" />
+
+    <item
+        android:id="@+id/menuPuple"
+        android:title="보라" />
+
+</menu>
