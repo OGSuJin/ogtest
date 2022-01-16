@@ -114,8 +114,7 @@
 
     </LinearLayout>
 
-
-    <com.example.taegyung.paintboardv1.PaintBoard
+    <com.example.taegyung.navmyapps.PaintBoard
         android:id="@+id/viewContainer"
         android:layout_height="match_parent"
         android:layout_width="match_parent" />

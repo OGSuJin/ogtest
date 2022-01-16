@@ -135,6 +135,10 @@ public class MainActivity extends AppCompatActivity
             // 세번째 화면 보이기
             curFragment = paintBoardFragment;
         }
+        else if ( position == 3) {
+            // 네번째 화면 보이기
+            Toast.makeText(this, "네번째 화면입니다.", Toast.LENGTH_SHORT).show();
+        }
 
         // 바뀐 화면 보이기
         getSupportFragmentManager().beginTransaction().replace(R.id.container, curFragment).commit();
