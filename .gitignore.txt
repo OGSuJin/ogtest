@@ -1,20 +1,20 @@
-BasicCalculatorV1/  
+BasicCalculatorV1/
 
-BasicCalculatorV4/  
+BasicCalculatorV4/
 
-EnglishVocaV3/  
+EnglishVocaV3/
 
 PaintBoardV1/
 
-BasicCalculatorV2/  
+BasicCalculatorV2/
 
-EnglishVocaV1/      
+EnglishVocaV1/
 
-NavMyApps/      
+NavMyApps/
 
-BasicCalculatorV3/  
+BasicCalculatorV3/
 
-EnglishVocaV2/      
+EnglishVocaV2/
 
 PaintBoard/
 
